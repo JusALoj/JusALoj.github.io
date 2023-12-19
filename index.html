@@ -241,31 +241,7 @@ Una imagen es un paquete ligero y ejecutable que incluye todo lo necesario para 
     </section>
     <!-- End Featured Product --
 
-<script>
-    // Función para guardar la información en el Local Storage
-    function guardarInformacion() {
-        localStorage.setItem('nombreEmpresa', document.getElementById('nombreEmpresa').innerText);
-        localStorage.setItem('linkNosotros', document.getElementById('linkNosotros').innerText);
-        localStorage.setItem('linkTienda', document.getElementById('linkTienda').innerText);
-        localStorage.setItem('linkContacto', document.getElementById('linkContacto').innerText);
-        localStorage.setItem('correo', document.getElementById('correo').innerText);
-        localStorage.setItem('telefono', document.getElementById('telefono').innerText);
-    }
 
-    // Función para cargar la información desde el Local Storage
-    function cargarInformacion() {
-        document.getElementById('nombreEmpresa').innerText = localStorage.getItem('nombreEmpresa') || 'Jus';
-        document.getElementById('linkNosotros').innerText = localStorage.getItem('linkNosotros') || 'Nosotros';
-        document.getElementById('linkTienda').innerText = localStorage.getItem('linkTienda') || 'Tienda';
-        document.getElementById('linkContacto').innerText = localStorage.getItem('linkContacto') || 'Contacto';
-        document.getElementById('correo').innerText = localStorage.getItem('correo') || 'alexander.lojanot@ucuenca.edu.ec';
-        document.getElementById('telefono').innerText = localStorage.getItem('telefono') || '010-020-0340';
-    }
-
-    // Ejecutar la función de carga al cargar la página
-    cargarInformacion();
-</script>
-<!-- End Script -->
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light shadow">
     <div class="container d-flex justify-content-between align-items-center">
