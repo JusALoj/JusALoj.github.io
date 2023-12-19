@@ -455,6 +455,23 @@ Una imagen es un paquete ligero y ejecutable que incluye todo lo necesario para 
 </script>
 <!-- End Script -->
 
+<!-- Otros scripts y contenido HTML -->
+
+<!-- Script para ocultar el recuadro oscuro de la parte inferior -->
+<script>
+    // Verificar que el documento se ha cargado completamente
+    document.addEventListener('DOMContentLoaded', function () {
+        // Seleccionar el elemento con el ID 'tempaltemo_footer' y ocultarlo
+        var footerElement = document.getElementById('tempaltemo_footer');
+        if (footerElement) {
+            footerElement.style.display = 'none';
+        }
+    });
+</script>
+<!-- Fin del script -->
+
+</body>
+</html>
 
 </body>
 
